@@ -1,0 +1,120 @@
+*{
+    background: #b766b5 ;
+    font-family: "Matemasie", sans-serif;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 120%;
+    
+    
+    
+   }
+.logo{
+    padding-top: 10px;
+    margin-left: 10px;
+    width: 6%;
+}
+
+
+
+main{
+    display: flex;
+    margin-bottom: 300px;
+    margin-left: 100px;
+}
+
+.text-area {
+    border: 10cqmin;
+    color: rgb(0, 251, 255) ;
+    margin-top: 50px;
+    text-transform: lowercase;
+}
+::placeholder {color:aqua; }
+.text-area:focus{
+    outline: none;
+}
+
+.mensaje{
+    background-color: rgb(145, 75, 151);
+    background-image: url(/imagenes/Designer\ \(13\)\ \(1\).png);
+    background-repeat: no-repeat;
+    border:none;
+    border-radius: 30px;
+    color: aqua;
+    margin-left: 100px;
+    margin-top: 20px;
+    padding-left: 20px;
+    position: fixed;
+    width: 310px;
+
+}
+.mensaje:focus {
+    outline: none;
+}
+
+.botones {
+    display: flex;
+    margin-top: 18px;
+}
+
+.btn-desencriptar {
+    background: aqua;
+    border: 1px solid #b766b5;
+    border-radius: 24px;
+    color: darkviolet;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+
+}
+
+.btn-encriptar {
+    background-color: aqua;
+    border: 1px solid #b766b5;
+    border-radius: 24px;
+    color: hsl(282, 100%, 41%);
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+
+}
+
+.btn-copiar {
+    border: 2px solid #80007e;
+    border-radius: 24px;
+    color: aqua;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 108px;
+    margin-top: 402px;
+    position: absolute;
+    width: 320px;
+
+}
+
+.informacon {
+    color: #80007e;
+    font-size: 18px;
+}
+
+
+    
+
+    
+
+    
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  

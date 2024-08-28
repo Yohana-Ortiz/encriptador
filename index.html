@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Matemasie&display=swap" rel="stylesheet">
+    
+    
+    
+    <title>Encriptador</title>
+
+</head>
+<body>
+     <header>
+        <img src="/imagenes/Designer (12) (1).png" alt="logo de bela" class="logo">
+     </header>
+     
+     <main>
+        <section>
+            <textarea class="text-area" cols="30" rows="10" placeholder="Ingrese el texto aqui"></textarea>
+            <div>
+                <h6 class="informacon">¡BELITA! Escribe solo con letras minúsculas y sin acentos</h6>
+            </div>
+            
+            <div class="botones">
+                <button class="btn-encriptar" onclick="btnEncriptar()" >ENCRIPTAR</button>
+                <button class="btn-desencriptar"onclick="btnDesencriptar()">DESENCRIPTAR</button>
+            </div>     
+        </section>
+        <section>
+            <textarea class="mensaje" cols="20" rows="10"></textarea>
+            <div>
+                <button class="btn-copiar">COPIAR</button>
+            </div>
+        </section>
+     </main>
+     <script src="script.js"></script>
+</body>
+</html>
+
